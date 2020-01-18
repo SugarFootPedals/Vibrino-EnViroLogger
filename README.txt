@@ -26,9 +26,9 @@ Added two extra i2C connectors for an i2C Display (OLED) and an i2C Sensor (BME2
 
 Real-Time Clock IC (RTC) and uSD Card for Datalogging. CR1220 Backup Battery Holder.
 
-I have included an Arduino Sketch that works! 
-It reads a (generic) BME280 Barometric Sensor, displays the Temperature/Barometric Pressure/Humidity/Date(timestamp) on an OLED Display (mounted on bottom of the board), then LOGS this information onto a microSD Card with Timestamp.
-(a video of the working VIBRINO is on my Instagram - VibratoLLC).
+I have included an Arduino Sketch (.ino) that works! 
+It reads a (generic) BME280 Barometric Sensor, displays the Temperature/Barometric Pressure/Humidity/Date(timestamp) on an OLED Display (mounted on bottom of the board), then LOGS this information onto a microSD Card with Timestamp in CSV format (comma seperated values). 
+An added plus is that it starts a new Data File after powering up without erasing the previous File!
 
 There are two LEDs on the board marked as PWR (RED) and 
 SCK (BLUE).
